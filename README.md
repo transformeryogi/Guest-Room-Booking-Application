@@ -75,17 +75,17 @@ This project uses official Vite plugins for React development:
 ---
 
 ## Contributing
-Contributions are welcome! Please follow these steps:
+ Contributions are welcome! Please follow these steps:
 
-Fork the repository.
+ Fork the repository.
 
-Create a new branch (git checkout -b feature-name).
+ 1. Create a new branch (git checkout -b feature-name).
 
-Commit your changes (git commit -m 'Add feature').
+ 2. Commit your changes (git commit -m 'Add feature').
 
-Push to the branch (git push origin feature-name).
+ 3. Push to the branch (git push origin feature-name).
 
-Open a pull request.
+ 4. Open a pull request.
 
 ---
 
