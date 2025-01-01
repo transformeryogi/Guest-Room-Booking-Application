@@ -31,31 +31,33 @@ Follow these steps to set up and run the application locally:
    ```bash
    git clone https://github.com/your-username/guest-room-booking-application.git
    cd guest-room-booking-application
-Install dependencies:
+2. Install dependencies:
 
-bash
-Copy code
-npm install
-Start the development server:
+   Install dependencies:
 
-bash
-Copy code
-npm run dev
-Open your browser and navigate to http://localhost:5173 to view the application.
+   bash
+   Copy code
+   npm install
+   
+4. Start the development server:
 
-Run Firebase and website together:
+   npm run dev
 
-bash
-Copy code
-npm run dev
-Plugins
+   Open your browser and navigate to http://localhost:5173 to view the application.
+
+5. Run Firebase and website together:
+
+   npm run dev
+
+ ## Plugins
+
 This project uses official Vite plugins for React development:
 
 @vitejs/plugin-react: Utilizes Babel for fast refresh and React integration.
+
 @vitejs/plugin-react-swc: Utilizes SWC for fast refresh and improved build performance.
-Folder Structure
-lua
-Copy code
+
+## Folder Structure
 |-- src
 |   |-- components      # Reusable React components
 |   |-- pages           # Page-level components
@@ -66,19 +68,24 @@ Copy code
 |-- public              # Static public files
 |-- package.json        # Project dependencies and scripts
 |-- vite.config.js      # Vite configuration
-Contributing
+
+## Contributing
 Contributions are welcome! Please follow these steps:
 
 Fork the repository.
-Create a new branch (git checkout -b feature-name).
-Commit your changes (git commit -m 'Add feature').
-Push to the branch (git push origin feature-name).
-Open a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+Create a new branch (git checkout -b feature-name).
+
+Commit your changes (git commit -m 'Add feature').
+
+Push to the branch (git push origin feature-name).
+
+Open a pull request.
+
+## Contact
+
 For any inquiries or feedback, please reach out to:
 
-📧 Email: yogeshkannan272004@gmail.com
-🐙 GitHub: transformeryogi
+Email: yogeshkannan272004@gmail.com
+
+GitHub: https://github.com/transformeryogi
