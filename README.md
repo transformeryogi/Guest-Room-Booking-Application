@@ -5,7 +5,7 @@ This repository contains the source code for a **Guest Room Booking Application*
 ---
 
 ## Features
-
+- 🚀 **Full-Stack Solution**: Built with Firebase, Express.js, React, and Node.js.
 - 🚀 **Fast Development**: Powered by Vite for a super-fast development environment.
 - ⚛️ **React Integration**: Leverages React for building reusable UI components.
 - 🔄 **Hot Module Replacement (HMR)**: Instant updates during development.
