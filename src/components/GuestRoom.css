@@ -1,0 +1,218 @@
+.guest-room-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.rooms-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.room-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.room-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.room-details {
+  padding: 10px 15px;
+}
+
+.room-details h3 {
+  font-size: 18px;
+  color: #444;
+  margin: 5px 0;
+}
+
+.room-details p {
+  margin: 5px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.room-pricing {
+  padding: 10px 15px;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.price {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.original-price {
+  font-size: 12px;
+  color: #888;
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+
+.reserve-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.reserve-button:hover {
+  background-color: #0056b3;
+}
+
+.edit-room-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.edit-room-button:hover {
+  background-color: #1e7e34;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.modal-content p {
+  margin: 10px 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.unavailable-dates h3 {
+  margin-top: 20px;
+  color: #444;
+  font-size: 16px;
+}
+
+.unavailable-dates ul {
+  padding: 0;
+  list-style-type: none;
+  margin: 10px 0;
+  color: #666;
+}
+
+.unavailable-dates ul li {
+  font-size: 14px;
+}
+
+.user-details label {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.user-details input {
+  width: 50%;
+  margin: auto;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.date-selection label {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.date-selection input {
+  width: 50%;
+  margin: auto;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.close-button {
+  
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.close-button:hover {
+  background-color: #bd2130;
+
+}
+
+.time-selection label {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.time-selection input {
+  width: 50%;
+  margin: auto;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
