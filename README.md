@@ -34,8 +34,6 @@ Follow these steps to set up and run the application locally:
    
 2. Install dependencies:
 
-   bash
-   Copy code
    npm install
    
 4. Start the development server:
