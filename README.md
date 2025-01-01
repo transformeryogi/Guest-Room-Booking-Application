@@ -31,9 +31,8 @@ Follow these steps to set up and run the application locally:
    ```bash
    git clone https://github.com/your-username/guest-room-booking-application.git
    cd guest-room-booking-application
+   
 2. Install dependencies:
-
-   Install dependencies:
 
    bash
    Copy code
@@ -49,6 +48,8 @@ Follow these steps to set up and run the application locally:
 
    npm run dev
 
+---
+
  ## Plugins
 
 This project uses official Vite plugins for React development:
@@ -56,6 +57,8 @@ This project uses official Vite plugins for React development:
 @vitejs/plugin-react: Utilizes Babel for fast refresh and React integration.
 
 @vitejs/plugin-react-swc: Utilizes SWC for fast refresh and improved build performance.
+
+---
 
 ## Folder Structure
 |-- src
@@ -69,6 +72,8 @@ This project uses official Vite plugins for React development:
 |-- package.json        # Project dependencies and scripts
 |-- vite.config.js      # Vite configuration
 
+---
+
 ## Contributing
 Contributions are welcome! Please follow these steps:
 
@@ -81,6 +86,8 @@ Commit your changes (git commit -m 'Add feature').
 Push to the branch (git push origin feature-name).
 
 Open a pull request.
+
+---
 
 ## Contact
 
