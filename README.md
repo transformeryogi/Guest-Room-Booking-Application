@@ -38,11 +38,13 @@ Follow these steps to set up and run the application locally:
    
 4. Start the development server:
 
+   cd filename
+
    npm run dev
 
    Open your browser and navigate to http://localhost:5173 to view the application.
 
-5. Run Firebase and website together:
+6. Run Firebase and website together:
 
    npm run dev
 
