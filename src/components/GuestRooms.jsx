@@ -128,8 +128,8 @@ const GuestRooms = () => {
             </div>
             <div className="room-pricing">
               <p className="price">
-                <span className="current-price">${room.price}</span>
-                {room.originalPrice && <span className="original-price">${room.originalPrice}</span>}
+                <span className="current-price">₹{room.price}</span>
+                {room.originalPrice && <span className="original-price">₹{room.originalPrice}</span>}
               </p>
               <button className="reserve-button" onClick={() => handleReserveClick(room)}>
                 Reserve
