@@ -20,7 +20,7 @@ const Navbar = () => {
             </NavLink>
             {isuser === 'admin' && ( // Check if the user is an admin
               <>
-                <NavLink to="/owner/bookings" className={({ isActive }) => (isActive ? 'active' : '')}>
+                <NavLink to="/owner-bookings" className={({ isActive }) => (isActive ? 'active' : '')}>
                   Admin Bookings
                 </NavLink>
                 <NavLink to="/owner-room-management" className={({ isActive }) => (isActive ? 'active' : '')}>
