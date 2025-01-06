@@ -48,6 +48,8 @@ const UserLogin = () => {
       localStorage.setItem("username", userData.username);
       localStorage.setItem("email", userData.email); // Store the email in localStorage
       localStorage.setItem("isuser", "user");
+      alert("Logged in successfully");
+
       // Navigate to the guestrooms page on success
       navigate("/guestrooms");
     } catch (error) {
