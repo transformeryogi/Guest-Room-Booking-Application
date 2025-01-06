@@ -48,9 +48,10 @@ const OwnerLogin = () => {
       localStorage.setItem("username", userData.username);
       localStorage.setItem("email", userData.email); // Store the email in localStorage
       localStorage.setItem("isuser", "admin");
-
       // Navigate to the guestrooms page on success
       navigate("/guestrooms");
+      alert("Logged in successfully");
+
     } catch (error) {
       // Handle Firebase or network errors
       setError("Login failed. Please check your connection and try again.");

@@ -13,7 +13,7 @@ const Profile = () => {
     localStorage.removeItem('username');
     localStorage.removeItem('email');
     localStorage.removeItem('isuser');
-
+    alert("You have Successfully Logout ");
     // Redirect to login page
     navigate('/user/login');
   };
