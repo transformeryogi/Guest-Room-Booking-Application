@@ -176,12 +176,14 @@ const GuestRooms = () => {
                 Check-out Time: <input type="time" value={checkOutTime} onChange={(e) => setCheckOutTime(e.target.value)} />
               </label>
             </div>
+            <div className="button-group">
             <button className="reserve-button" onClick={confirmBooking} disabled={loading}>
               {loading ? "Confirming..." : "Confirm Booking"}
             </button>
             <button className="close-button" onClick={closeModal}>
               Cancel
             </button>
+            </div>
           </div>
         </div>
       )}
