@@ -20,7 +20,7 @@ const OwnerRoomManagement = () => {
       }
     };
     fetchRooms();
-  }, []);
+  }, );
 
   const [currentRoom, setCurrentRoom] = useState({
     id: null,

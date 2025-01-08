@@ -18,11 +18,11 @@ const Home = () => {
           <p className="hero-subheading"> {/* Subheading for a brief description */}
             Amplify Your Experience - Book your dream guesthouse in a few clicks.
           </p>
-      
+      <p >WHERE COMFORT MEETS LUXURY</p>
         </div>
         <div className="image-container"> {/* Container for the hero image */}
           <img
-            src="/src/assets/brian-babb-XbwHrt87mQ0-unsplash.jpg"
+            src="\src\assets\image copy.png"
             alt="Luxurious guesthouse scenery" // Accessible alternative text for the image
             className="hero-image"
           />
@@ -36,11 +36,11 @@ const Home = () => {
           {[
             // Array of guest house details
             {
-              imgSrc: "/src/assets/daniel-barnes-PyFzygP2eNg-unsplash.jpg",
+              imgSrc: "/src/assets/jim-allen-XgbKtXF4Mdk-unsplash.jpg",
               title: "StayNest Guest House",
             },
             {
-              imgSrc: "/src/assets/matt-jones-xpDHTc-pkog-unsplash.jpg",
+              imgSrc: "/src/assets/brian-babb-XbwHrt87mQ0-unsplash.jpg",
               title: "Cozy Corner Guest House",
             },
             {
