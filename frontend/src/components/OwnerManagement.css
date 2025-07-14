@@ -1,0 +1,173 @@
+/* Page container */
+.owner-room-management {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 900px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+/* Page heading */
+.owner-room-management h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Form */
+.owner-room-management form {
+  background-color: #e0dddd;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.owner-room-management form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Inputs and select */
+.owner-room-management input[type="text"],
+.owner-room-management input[type="number"],
+.owner-room-management select {
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Image management */
+.image-management input[type="text"] {
+  width: 60%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.image-management button {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #17a2b8;
+  color: rgb(232, 228, 228);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.image-management button:hover {
+  background-color: #138496;
+}
+
+.image-preview {
+  margin-top: 10px;
+}
+
+.image-preview div {
+  display: inline-block;
+  margin: 5px;
+  text-align: center;
+}
+
+.image-preview img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.image-preview button {
+  display: block;
+  margin: 5px auto 0;
+  background-color: #dc3545;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+/* Submit button */
+.owner-room-management form button[type="submit"] {
+  display: block;
+  width: fit-content;
+  margin: 20px auto 0;
+  background-color: #007bff;
+  color: #e4e2e2;
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.owner-room-management form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Guest room list section */
+.owner-room-management h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Each room card */
+.owner-room-management .room {
+  background-color: #ea1f1f;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.room h3 {
+  margin-top: 0;
+  color: #007bff;
+}
+
+.room p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.room img {
+  width: 100%;
+  max-width: 200px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+/* Room action buttons */
+.room button {
+  margin-right: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+}
+
+.room button:first-of-type {
+  background-color: #28a745;
+}
+
+.room button:first-of-type:hover {
+  background-color: #218838;
+}
+
+.room button:last-of-type {
+  background-color: #dc3545;
+}
+
+.room button:last-of-type:hover {
+  background-color: #c82333;
+}
